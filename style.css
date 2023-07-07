@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Solution 1 */
+.menu-card {
+  height: 600px;
+  background-color: rgb(230, 230, 230);
+  width: 500px;
+  border: 1px solid rgb(140, 139, 139);
+  border-radius: 14px;
+  margin: 30px auto;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.menu-card .menu-img img {
+  height: 100%;
+  width: 480px;
+  border-radius: 14px;
+}
+.menu-card .menu-img {
+  height: 65%;
+  position: relative;
+}
+.promoted-link {
+  color: rgb(255, 255, 255);
+}
+.menu-card .menu-img a {
+  position: absolute;
+  top: 0;
+  padding: 3px;
+  text-decoration: none;
+  background-color: rgba(128, 128, 128, 0.4);
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  margin: 10px;
+  font-size: 13px;
+}
+.menu-card .menu-img .menu-off-link {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  background-color: #266fef;
+  font-size: 23px;
+  padding-left: 10px;
+  height: 35px;
+  width: 220px;
+  font-weight: 500;
+}
+.menu-card .menu-img .menu-timer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  height: 35px;
+  width: 80px;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 3px;
+  font-weight: 500;
+}
+.menu-card h2 {
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.menu-card p {
+  font-size: 25px;
+  font-weight: 400;
+  color: #6c6c6c;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.menu-card .safety-img img {
+  height: 30px;
+  width: 80px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.menu-card .safety-img p {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.safety-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* solution 2 */
+
+.img-card {
+  height: 400px;
+  width: 650px;
+  border-radius: 14px;
+  margin: 30px auto;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+.img-card img {
+  height: 400px;
+  width: 650px;
+  border-radius: 14px;
+}
+.img-card h2 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 23px;
+}
+.img-card p {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  margin-top: 50px;
+}
+.img-card .btn {
+  height: 40px;
+  width: 150px;
+  border: none;
+  color: black;
+  background-color: #fff;
+  border-radius: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  margin-top: 110px;
+  cursor: pointer;
+}
+/*  Solution 3 */
+
+.Zomato-login {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 200px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.Zomato-login img {
+  height: 500px;
+  width: 100%;
+}
+.Zomato-login h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 70px;
+}
+.Zomato-login p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  margin-top: 70px;
+  font-size: 35px;
+}
+.Zomato-login .input{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  margin-top: 140px;
+  width: 750px;
+  height: 53px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 14px;
+ 
+}
+.location{
+  font-size: 20px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 15px;
+  color: tomato;
+}
+.lucknow{
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+  border: none;
+  font-size: 17px;
+  width: 140px;
+}
+.Zomato-login i{
+  color: black;
+}
+.drop-down{
+  float: left;
+  margin-top: 17px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.Search{
+  float: left;
+  margin-top:20px;
+  margin-left: 30px;
+}
+.input-search{
+  height: 53px;
+  width:60%;
+  border: none;
+  font-size: 20px;
+}
+ /*  Assignment 4 */
+
+ .profile-card{
+  height: 450px;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 14px 14px 0  0;
+  position: static;
+  border: 1px solid gray;
+  margin-bottom: 50px; 
+
+ }
+ .profile-card img {
+  height: 200px;
+  width: 500px;
+  border-radius: 14px 14px 0  0;
+  
+ }
+ .profile-card .profile-img{
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -50px;
+  margin-left: 183px;
+  border: 3px solid white;
+  position: absolute;
+ }
+.user-img{
+  position: relative;
+}
+.profile-card h1{
+  font-size: 45px;
+  padding-left: 80px;
+  margin-top: 60px;
+}
+.profile-card p{
+  padding-left: 120px;
+  margin-top: 20px;
+  font-size: 20px;
+}
